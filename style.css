@@ -151,12 +151,12 @@ body {
 
 .gridcontainer {
     display: grid;
-    grid-template-columns: 220px 220px;
+    grid-template-columns: 80%;
     grid-column-gap: 20px;
-    grid-row-gap: 20px;
+   
     width: 600px;
     padding: 10px;
-    margin-left: 65px;
+    margin-left: 60px;
 }
 
 .pic {
@@ -168,7 +168,7 @@ body {
     position: relative;
     z-index: 2;
     bottom: 40px;
-    width: 210px;
+    width: 44%;
     height: 40px;
     background-color: #4aaaa5;
     color: white;
@@ -228,6 +228,19 @@ footer {
         width: 30%;
     }
 
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 60% 60%; 
+    }
+
+    .pic {
+        width: 59%;
+    }
+    
+    .label {
+        width: 59%;
+    }
+
     #connect {
         width: 80%;
         clear: both;
@@ -285,6 +298,25 @@ footer {
 
     #aboutmetext {
         clear: both;
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .pic {
+        position: relative;
+        z-index: 1;
+        width: 59%;
+        margin-left: 19%; 
+    }
+    
+    .label {
+        position: relative;
+        z-index: 2;
+        width: 59%;
+        margin-left: 19%;
     }
 
     footer {
